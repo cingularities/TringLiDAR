@@ -1,0 +1,12 @@
+Package: TringLiDAR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.1
+Authors@R: 
+    person("Cynthia", "Norton", , "cnorton1@email.arizona.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4290-6914"))
+Description: TringLiDAR package was developed to fused ground forest metrics, tree ring measurements and LiDAR point clouds to estimate historic forest metrics.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
