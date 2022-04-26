@@ -8,7 +8,8 @@ Description: TringLiDAR package was developed to fused ground forest metrics, tr
 Depends: 
    dplR (>= 1.0.8),
    tidyr,
-   tidyverse 
+   tidyverse,
+   readxl 
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
