@@ -6,9 +6,9 @@ Authors@R:
            comment = c(ORCID = "0000-0002-4290-6914"))
 Description: TringLiDAR package was developed to fused ground forest metrics, tree ring measurements and LiDAR point clouds to estimate historic forest metrics.
 Depends: 
-   dplR,
+   dplR (>= 1.0.8),
    tidyr,
-   tidyverse
+   tidyverse 
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
