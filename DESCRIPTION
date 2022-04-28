@@ -1,5 +1,5 @@
 Package: TringLiDAR
-Title: What the Package Does (One Line, Title Case)
+Title: Tree Ring and LiDAR data fusion for forest metric estimates.
 Version: 0.0.0.1
 Authors@R: 
     person("Cynthia", "Norton", , "cnorton1@email.arizona.com", role = c("aut", "cre"),
@@ -10,7 +10,6 @@ Description: TringLiDAR package was developed to fused ground forest metrics, tr
 Depends: 
    dplR (>= 1.0.8),
    tidyr,
-   tidyverse,
    readxl,
    geosphere
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
@@ -19,7 +18,9 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Suggests:
+    testthat (>= 3.0.0)
 VignetterBuilder: 
     knitr,
     rmarkdown,
     testthat
+Config/testthat/edition: 3
